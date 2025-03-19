@@ -19,5 +19,5 @@ features:
     details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site. 
   - title: Bundlers
     details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
-footer: MIT Licensed | Copyright © 2018-present
+footer: MIT Licensed | Copyright © 2025-present
 ---
