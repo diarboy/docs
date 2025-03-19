@@ -2,19 +2,11 @@
 title: About Me
 ---
 
-# 👋 Hey there, Welcome to Whatever Docs!
-
 <div style="display: flex; justify-content: center; align-items: center;">
 <ClientOnly>
   <PiniaLogo style="width: 300px; height: auto;" />
 </ClientOnly>
 </div>
-
-## 🚀 Who Am I?
-Hi, I’m **Allbibek**, a passionate developer, designer, and tech enthusiast who loves sharing knowledge.  
-This site is my digital space where I document my learnings, projects, and insights on web development.
-
----
 
 ## 🌟 What You'll Find Here
 I believe in **learning by sharing**, so here’s what you can expect from this website:

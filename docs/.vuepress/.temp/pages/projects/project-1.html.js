@@ -1,5 +1,5 @@
 import comp from "/home/diarboy/docs/docs/.vuepress/.temp/pages/projects/project-1.html.vue"
-const data = JSON.parse("{\"path\":\"/projects/project-1.html\",\"title\":\"Sistem Manajemen Tugas\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"Sistem Manajemen Tugas\"},\"headers\":[{\"level\":2,\"title\":\"✨ Fitur:\",\"slug\":\"✨-fitur\",\"link\":\"#✨-fitur\",\"children\":[]},{\"level\":2,\"title\":\"🔗 Link Demo:\",\"slug\":\"🔗-link-demo\",\"link\":\"#🔗-link-demo\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"projects/project-1.md\"}")
+const data = JSON.parse("{\"path\":\"/projects/project-1.html\",\"title\":\"Project 1\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"Project 1\"},\"headers\":[{\"level\":2,\"title\":\"GH Page\",\"slug\":\"gh-page\",\"link\":\"#gh-page\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"projects/project-1.md\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {

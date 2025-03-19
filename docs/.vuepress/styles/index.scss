@@ -1,3 +1,8 @@
+:root {
+  --vp-gradient: linear-gradient(90deg, #4CAF50, #00BCD4);
+  --vp-c-gutter: var(--vp-c-accent-soft);
+}
+
 #main-title {
   font-size: 5rem;
   line-height: 0.9em;
@@ -15,9 +20,9 @@
 
 @media (max-width: 768px) {
   #main-title {
-    font-size: 4rem;
-    padding: 0rem 4rem;
-    max-width: 90%;
+    font-size: 3.5rem;
+    padding: 0rem 0rem;
+    max-width: 90%; 
   }
 }
 
@@ -36,6 +41,10 @@ body {
   margin: 5px;
 }
 
+.vp-hero-action-button {
+  font-size: 1rem;
+}
+
 /* Primary Button */
 .vp-hero-action-button.primary {
   color: var(--vp-c-accent-text);
@@ -46,47 +55,61 @@ body {
   border-radius: 50px;
 }
 
+/* Secondary Button */
 .vp-hero-action-button.secondary {
-  color: var(--vp-c-accent);
-  background-color: var(--vp-c-bg-elv);
+  color: var(--vp-c-accent-text);
+  border: 2px solid transparent;
+  background: 
+    linear-gradient(var(--vp-c-bg), var(--vp-c-accent-soft)) padding-box, 
+    linear-gradient(45deg, #42d392, #647eff) border-box;
   border-radius: 50px;
 }
 
 .vp-hero-action-button.secondary:hover {
   background-color: var(--c-text-light);
-  color: var(--vp-c-yellow-text);
-  border: 2px solid var(--vp-c-yellow-text);
+  color: var(--vp-c-accent);
+  border: 2px solid var(--vp-c-accent);
   border-radius: 50px;
 }
 
 /* Tertiary Button */
   .vp-hero-action-button.tertiary {
-    color: var(--vp-c-accent);
-    background-color: var(--vp-c-bg-elv);
+    color: var(--vp-c-accent-text);
+    border: 3px solid transparent;
+    background: 
+      linear-gradient(45deg, #42d392, #647eff) border-box, 
+      var(--vp-c-bg) padding-box;
+    background-clip: border-box, padding-box;
     border-radius: 50px;
-    border: none;
   }
   .vp-hero-action-button.tertiary:hover {
-    background-color: var(--vp-c-accent-soft);
-    color: var(--vp-c-yellow-text);
-    border: none;
+    color: var(--vp-c-accent);
+    background: 
+      linear-gradient(var(--vp-c-bg), var(--vp-c-accent-soft)) padding-box, 
+      var(--vp-c-accent) border-box;
+    border: 2px solid transparent;
     border-radius: 50px;
   }
 
 /* Outline Button */
 .vp-hero-action-button.outline {
   color: var(--vp-c-accent);
+  border: 3px solid transparent;
   border-radius: 50px;
-}
-.vp-hero-action-button.outline:hover {
-  background-color: var(--c-text-light);
-  color: var(--vp-c-yellow-text);
-  border: 2px solid var(--vp-c-yellow-text);
-  border-radius: 50px;
+  background: 
+    linear-gradient(var(--vp-c-bg), var(--vp-c-bg)) padding-box, 
+    linear-gradient(90deg, #4CAF50, #00BCD4) border-box;
+  background-clip: padding-box, border-box;
 }
 
-.external-link-icon .external-link::after {
-  background-color: var(--vp-c-accent);
+.vp-hero-action-button.outline:hover {
+  color: var(--vp-c-text);
+  background: 
+    linear-gradient(var(--vp-c-bg), var(--vp-c-bg)) padding-box, 
+    linear-gradient(45deg, #42d392, #647eff) border-box;
+  border: 3px solid transparent;
+  background-clip: padding-box, border-box;
+  border-radius: 50px;
 }
 
 .theme-default-content a:not(.header-anchor) {
@@ -96,3 +119,9 @@ body {
 .theme-default-content a:not(.header-anchor):hover {
   color: var(--vp-c-yellow-text);
 }
+
+.vp-theme-container.sidebar-open .vp-sidebar {
+  background: transparent;
+  backdrop-filter: blur(8px);
+}
+

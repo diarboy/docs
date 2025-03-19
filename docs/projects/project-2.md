@@ -1,15 +1,7 @@
 ---
-title: Website Portofolio Interaktif
+title: Project 2
 ---
 
-# 🌐 Website Portofolio Interaktif
+## 🌐 Vercel App
 
-Portofolio yang dibangun dengan **VuePress** dan memiliki efek animasi keren.
-
-## ✨ Fitur:
-- **Mode Gelap/Terang** dengan Vue.
-- **Animasi interaktif** dengan GSAP.
-- **Responsif & cepat**.
-
-## 🔗 Link Demo:
-[💻 Lihat Portofolio](https://example.com)
+[💻 Visit Link](https://allbibek.vercel.app)

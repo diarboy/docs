@@ -8,8 +8,9 @@ actions:
   - text: Get Started
     link: /guide/
     type: primary
+
   - text: Documentation
-    link: /docs/
+    link: /guide/
     type: secondary
 
   - text: GitHub
@@ -18,7 +19,7 @@ actions:
 
   - text: Learn More
     link: /about/
-    type: tertiary
+    type: outline
 features:
   - title: Simplicity First
     details: Minimal setup with markdown-centered project structure helps you focus on writing.
