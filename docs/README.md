@@ -1,7 +1,7 @@
 ---
 home: true
 title: Home
-heroImage: https://v2.vuepress.vuejs.org/images/hero.png
+heroImage: https://pinia.vuejs.org/logo.svg
 actions:
   - text: Get Started
     link: /guide/
@@ -19,5 +19,6 @@ features:
     details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site. 
   - title: Bundlers
     details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
+
 footer: MIT Licensed | Copyright © 2025-present
 ---

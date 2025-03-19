@@ -1,64 +1,43 @@
-# Page
-
-VuePress is markdown-centered. Each markdown file inside your project is a standalone page.
-
-## Routing
-
-By default, the route path of a page is determined by the relative path of your markdown file.
-
-Assuming this is the directory structure of your markdown files:
-
-```
-└─ docs
-   ├─ guide
-   │  ├─ getting-started.md
-   │  └─ README.md
-   ├─ contributing.md
-   └─ README.md
-```
-
-Take the `docs` directory as your [sourceDir](../reference/cli.md), e.g. you are running `vuepress dev docs` command. Then the route paths of your markdown files would be:
-
-| Relative Path               | Route Path                    |
-| --------------------------- | ----------------------------- |
-| `/README.md`                | `/`                           |
-| `/index.md`                 | `/`                           |
-| `/contributing.md`          | `/contributing.html`          |
-| `/guide/README.md`          | `/guide/`                     |
-| `/guide/getting-started.md` | `/guide/getting-started.html` |
-
-::: tip
-By default, both `README.md` and `index.md` would be converted to `index.html` and generate a slash-ending route path. However, it might cause conflicts if you want to keep both of the two files.
-
-In such case, you can set the [pagePatterns](../reference/config.md#pagepatterns) to avoid one of them being processed by VuePress, e.g. use `['**/*.md', '!**/README.md', '!.vuepress', '!node_modules']` to exclude all `README.md` files.
-
-Also, some symbols like `:` and `+` may have special meanings for vue-router, so you should avoid using them, see [vue-router docs](https://router.vuejs.org/guide/essentials/route-matching-syntax.html) for more details.
-:::
-
-## Frontmatter
-
-A markdown file could contain a [YAML](https://yaml.org/) frontmatter. The frontmatter must be at the top of the Markdown file and must be wrapped with a couple of triple-dashed lines. Here is a basic example:
-
-```md
 ---
-lang: en-US
-title: Title of this page
-description: Description of this page
+title: About Me
 ---
-```
 
-You must have noticed that those fields are similar with the [Site Config](./configuration.md#site-config) in the [Config File](./configuration.md#config-file). You can override `lang`, `title`, `description`, etc., of current page via frontmatter. So you can take frontmatter as page scope config.
+# 👋 Hey there, Welcome to Whatever Docs!
 
-Also, VuePress has built-in support for some frontmatter fields, and your theme may have its own special frontmatter, too.
+<ClientOnly>
+  <PiniaLogo />
+   <ProfileCard />
+</ClientOnly>
 
-::: tip
-Check out the [Frontmatter Reference](../reference/frontmatter.md) for a full list of VuePress built-in frontmatter.
+## 🎭 A Bit More About Me
 
-Check out the [Default Theme > Frontmatter Reference](https://ecosystem.vuejs.press/themes/default/frontmatter.html) for the frontmatter of default theme.
-:::
+## 🚀 Who Am I?
+Hi, I’m **[Your Name]**, a passionate developer, designer, and tech enthusiast who loves sharing knowledge.  
+This site is my digital space where I document my learnings, projects, and insights on web development.
 
-## Content
+---
 
-The main content of your page is written in Markdown. VuePress will firstly transform your Markdown to HTML code, then treat the HTML code as `<template>` of Vue SFC.
+## 🌟 What You'll Find Here
+I believe in **learning by sharing**, so here’s what you can expect from this website:
+- ✨ **Tech & Development** – Deep dives into Vue.js, VuePress, and other modern web technologies.
+- 🛠️ **Projects & Experiments** – Sharing my coding projects, from small scripts to full-fledged applications.
+- 🎨 **Design & UX** – Exploring the intersection of design and functionality.
+- 💡 **Tips & Guides** – Hacks, best practices, and tutorials to make your dev life easier.
 
-With the power of [markdown-it](https://github.com/markdown-it/markdown-it) and Vue template syntax, the basic Markdown can be extended a lot. Next, check out the [Markdown](./markdown.md) guide for all the extensions of Markdown in VuePress.
+---
+
+## 📬 Let's Connect!
+I love connecting with fellow developers, designers, and tech enthusiasts.  
+Feel free to reach out:
+- 📧 **Email**: [your-email@example.com](mailto:your-email@example.com)
+- 🐦 **Twitter**: [@yourhandle](https://twitter.com/)
+- 🏗️ **GitHub**: [yourgithub](https://github.com/)
+
+---
+
+📝 _Built with ❤️ using VuePress_
+
+<script setup>
+import ProfileCard from '/.vuepress/components/ProfileCard.vue';
+import PiniaLogo from '/.vuepress/components/PiniaLogo.vue';
+</script>

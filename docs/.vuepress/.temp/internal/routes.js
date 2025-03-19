@@ -2,9 +2,9 @@ export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/home/diarboy/docs/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"Home"} }],
-  ["/about.html", { loader: () => import(/* webpackChunkName: "about.html" */"/home/diarboy/docs/docs/.vuepress/.temp/pages/about.html.js"), meta: {"title":"Page"} }],
+  ["/about.html", { loader: () => import(/* webpackChunkName: "about.html" */"/home/diarboy/docs/docs/.vuepress/.temp/pages/about.html.js"), meta: {"title":"About Me"} }],
   ["/blog/", { loader: () => import(/* webpackChunkName: "blog_index.html" */"/home/diarboy/docs/docs/.vuepress/.temp/pages/blog/index.html.js"), meta: {"title":"Introduction"} }],
-  ["/blog/first-post.html", { loader: () => import(/* webpackChunkName: "blog_first-post.html" */"/home/diarboy/docs/docs/.vuepress/.temp/pages/blog/first-post.html.js"), meta: {"title":"Membuat Animasi Halus di Vue.js"} }],
+  ["/blog/first-post.html", { loader: () => import(/* webpackChunkName: "blog_first-post.html" */"/home/diarboy/docs/docs/.vuepress/.temp/pages/blog/first-post.html.js"), meta: {"title":"Page"} }],
   ["/blog/second-post.html", { loader: () => import(/* webpackChunkName: "blog_second-post.html" */"/home/diarboy/docs/docs/.vuepress/.temp/pages/blog/second-post.html.js"), meta: {"title":"Meningkatkan Performa VuePress dengan Lazy Loading"} }],
   ["/guide/", { loader: () => import(/* webpackChunkName: "guide_index.html" */"/home/diarboy/docs/docs/.vuepress/.temp/pages/guide/index.html.js"), meta: {"title":"Getting Started"} }],
   ["/projects/", { loader: () => import(/* webpackChunkName: "projects_index.html" */"/home/diarboy/docs/docs/.vuepress/.temp/pages/projects/index.html.js"), meta: {"title":"Projects"} }],

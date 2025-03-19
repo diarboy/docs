@@ -9,7 +9,11 @@
     "@vuepress/bundler-vite": "next",
     "@vuepress/theme-default": "next",
     "sass": "^1.82.0",
-    "vuepress": "next",
-    "vue": "^3.5.13"
+    "vue": "^3.5.13",
+    "vuepress": "next"
+  },
+  "dependencies": {
+    "@vueuse/core": "^13.0.0",
+    "vue-use-spring": "^0.3.3"
   }
 }
