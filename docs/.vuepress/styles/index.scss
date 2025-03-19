@@ -1,0 +1,98 @@
+#main-title {
+  font-size: 5rem;
+  line-height: 0.9em;
+  font-weight: 900; 
+  background: linear-gradient(90deg, #4CAF50, #00BCD4);
+  background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-top: 1.5rem;
+  max-width: 70%;
+  white-space: normal; 
+  word-wrap: break-word; 
+  padding: 1rem 2rem;
+}
+
+@media (max-width: 768px) {
+  #main-title {
+    font-size: 4rem;
+    padding: 0rem 4rem;
+    max-width: 90%;
+  }
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.vp-hero .actions a {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+  margin: 5px;
+}
+
+/* Primary Button */
+.vp-hero-action-button.primary {
+  color: var(--vp-c-accent-text);
+  border-radius: 50px;
+}
+.vp-hero-action-button.primary:hover {
+  background-color: var(--vp-c-accent);
+  border-radius: 50px;
+}
+
+.vp-hero-action-button.secondary {
+  color: var(--vp-c-accent);
+  background-color: var(--vp-c-bg-elv);
+  border-radius: 50px;
+}
+
+.vp-hero-action-button.secondary:hover {
+  background-color: var(--c-text-light);
+  color: var(--vp-c-yellow-text);
+  border: 2px solid var(--vp-c-yellow-text);
+  border-radius: 50px;
+}
+
+/* Tertiary Button */
+  .vp-hero-action-button.tertiary {
+    color: var(--vp-c-accent);
+    background-color: var(--vp-c-bg-elv);
+    border-radius: 50px;
+    border: none;
+  }
+  .vp-hero-action-button.tertiary:hover {
+    background-color: var(--vp-c-accent-soft);
+    color: var(--vp-c-yellow-text);
+    border: none;
+    border-radius: 50px;
+  }
+
+/* Outline Button */
+.vp-hero-action-button.outline {
+  color: var(--vp-c-accent);
+  border-radius: 50px;
+}
+.vp-hero-action-button.outline:hover {
+  background-color: var(--c-text-light);
+  color: var(--vp-c-yellow-text);
+  border: 2px solid var(--vp-c-yellow-text);
+  border-radius: 50px;
+}
+
+.external-link-icon .external-link::after {
+  background-color: var(--vp-c-accent);
+}
+
+.theme-default-content a:not(.header-anchor) {
+  text-decoration: none;
+}
+
+.theme-default-content a:not(.header-anchor):hover {
+  color: var(--vp-c-yellow-text);
+}

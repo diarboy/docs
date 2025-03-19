@@ -1,11 +1,24 @@
 ---
 home: true
 title: Home
+heroText: "Whatever You Think, It Just a Docs!"
+tagline: "A minimal and powerful static site generator"
 heroImage: https://pinia.vuejs.org/logo.svg
 actions:
   - text: Get Started
     link: /guide/
     type: primary
+  - text: Documentation
+    link: /docs/
+    type: secondary
+
+  - text: GitHub
+    link: https://github.com/diarboy
+    type: tertiary
+
+  - text: Learn More
+    link: /about/
+    type: tertiary
 features:
   - title: Simplicity First
     details: Minimal setup with markdown-centered project structure helps you focus on writing.

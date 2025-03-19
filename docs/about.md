@@ -37,7 +37,7 @@ Feel free to reach out:
 
 ---
 
-📝 _Built with ❤️ using VuePress_
+📝 _Built with ❤️_
 
 <script setup>
 import ProfileCard from '/.vuepress/components/ProfileCard.vue';

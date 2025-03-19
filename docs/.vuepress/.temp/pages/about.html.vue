@@ -27,7 +27,7 @@ Feel free to reach out:</p>
 <li>🏗️ <strong>GitHub</strong>: <a href="https://github.com/diarboy" target="_blank" rel="noopener noreferrer">diarboy</a></li>
 </ul>
 <hr>
-<p>📝 <em>Built with ❤️ using VuePress</em></p>
+<p>📝 <em>Built with ❤️</em></p>
 </div></template>
 
 

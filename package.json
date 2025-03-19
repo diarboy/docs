@@ -1,5 +1,5 @@
 {
-  "name": "vuepress-starter",
+  "name": "whatever-docs",
   "private": true,
   "scripts": {
     "dev": "vuepress dev docs",
