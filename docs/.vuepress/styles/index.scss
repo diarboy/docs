@@ -125,3 +125,6 @@ body {
   backdrop-filter: blur(8px);
 }
 
+[data-theme="dark"] {
+  --vp-c-bg: #22272e; 
+}

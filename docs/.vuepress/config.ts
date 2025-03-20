@@ -13,7 +13,7 @@ export default defineUserConfig({
   bundler: viteBundler({}),
 
   theme: defaultTheme({
-    logo: '/favicon.png',
+    logo: '/favicon-light.svg',
     navbar: [
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about.html' },
