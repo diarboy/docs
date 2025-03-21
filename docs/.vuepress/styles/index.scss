@@ -103,7 +103,7 @@ body {
 }
 
 .vp-hero-action-button.outline:hover {
-  color: var(--vp-c-text);
+  color: #00BCD4;
   background: 
     linear-gradient(var(--vp-c-bg), var(--vp-c-bg)) padding-box, 
     linear-gradient(45deg, #42d392, #647eff) border-box;
@@ -112,11 +112,11 @@ body {
   border-radius: 50px;
 }
 
-.theme-default-content a:not(.header-anchor) {
+[vp-content] a:not(.header-anchor) {
   text-decoration: none;
 }
 
-.theme-default-content a:not(.header-anchor):hover {
+[vp-content] a:not(.header-anchor):hover {
   color: var(--vp-c-yellow-text);
 }
 
@@ -128,3 +128,5 @@ body {
 [data-theme="dark"] {
   --vp-c-bg: #22272e; 
 }
+
+

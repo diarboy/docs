@@ -3,8 +3,6 @@
 <p class="hint-container-title">Warning</p>
 <p>VuePress v2 is currently in RC (Release Candidate) stage. It's ready to be used for building your site, but the config and API are not stable enough, which is possibly to have minor breaking changes. So make sure to read the <a href="https://github.com/vuepress/core/blob/main/CHANGELOG.md" target="_blank" rel="noopener noreferrer">changelog</a> carefully each time you upgrade a RC version.</p>
 </div>
-<h2 id="try-it-online" tabindex="-1"><a class="header-anchor" href="#try-it-online"><span>Try It Online</span></a></h2>
-<p>You can try VuePress directly in your browser on <a href="https://stackblitz.com/fork/vuepress" target="_blank" rel="noopener noreferrer">StackBlitz</a>.</p>
 <h2 id="installation" tabindex="-1"><a class="header-anchor" href="#installation"><span>Installation</span></a></h2>
 <h3 id="prerequisites" tabindex="-1"><a class="header-anchor" href="#prerequisites"><span>Prerequisites</span></a></h3>
 <ul>
@@ -21,7 +19,7 @@
 <h3 id="project-setup" tabindex="-1"><a class="header-anchor" href="#project-setup"><span>Project Setup</span></a></h3>
 <h4 id="setup-via-cli" tabindex="-1"><a class="header-anchor" href="#setup-via-cli"><span>Setup via CLI</span></a></h4>
 <p>You can use <a href="https://www.npmjs.com/package/create-vuepress" target="_blank" rel="noopener noreferrer">create-vuepress</a> to generate a template directly.</p>
-<CodeTabs id="55" :data='[{"id":"pnpm"},{"id":"yarn"},{"id":"npm"}]' tab-id="shell">
+<CodeTabs id="49" :data='[{"id":"pnpm"},{"id":"yarn"},{"id":"npm"}]' tab-id="shell">
 <template #title0="{ value, isActive }">pnpm</template>
 <template #title1="{ value, isActive }">yarn</template>
 <template #title2="{ value, isActive }">npm</template>
@@ -49,7 +47,7 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><ul>
 <li>Initialize your project</li>
 </ul>
-<CodeTabs id="87" :data='[{"id":"pnpm"},{"id":"yarn"},{"id":"npm"}]' tab-id="shell">
+<CodeTabs id="81" :data='[{"id":"pnpm"},{"id":"yarn"},{"id":"npm"}]' tab-id="shell">
 <template #title0="{ value, isActive }">pnpm</template>
 <template #title1="{ value, isActive }">yarn</template>
 <template #title2="{ value, isActive }">npm</template>
@@ -72,7 +70,7 @@
 <ul>
 <li>Install VuePress</li>
 </ul>
-<CodeTabs id="105" :data='[{"id":"pnpm"},{"id":"yarn"},{"id":"npm"}]' tab-id="shell">
+<CodeTabs id="99" :data='[{"id":"pnpm"},{"id":"yarn"},{"id":"npm"}]' tab-id="shell">
 <template #title0="{ value, isActive }">pnpm</template>
 <template #title1="{ value, isActive }">yarn</template>
 <template #title2="{ value, isActive }">npm</template>
@@ -151,7 +149,7 @@
 <span class="line"><span class="token punctuation">}</span></span>
 <span class="line"></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Then, run <code v-pre>docs:dev</code> script to start the dev server:</p>
-<CodeTabs id="169" :data='[{"id":"pnpm"},{"id":"yarn"},{"id":"npm"}]' tab-id="shell">
+<CodeTabs id="163" :data='[{"id":"pnpm"},{"id":"yarn"},{"id":"npm"}]' tab-id="shell">
 <template #title0="{ value, isActive }">pnpm</template>
 <template #title1="{ value, isActive }">yarn</template>
 <template #title2="{ value, isActive }">npm</template>
@@ -171,7 +169,7 @@
 <p>VuePress will start a hot-reloading development server at <a href="http://localhost:8080" target="_blank" rel="noopener noreferrer">http://localhost:8080</a>. When you modify your markdown files, the content in the browser will be auto updated.</p>
 <h3 id="build-your-site" tabindex="-1"><a class="header-anchor" href="#build-your-site"><span>Build Your Site</span></a></h3>
 <p>To build your site, run <code v-pre>docs:build</code> script:</p>
-<CodeTabs id="189" :data='[{"id":"pnpm"},{"id":"yarn"},{"id":"npm"}]' tab-id="shell">
+<CodeTabs id="183" :data='[{"id":"pnpm"},{"id":"yarn"},{"id":"npm"}]' tab-id="shell">
 <template #title0="{ value, isActive }">pnpm</template>
 <template #title1="{ value, isActive }">yarn</template>
 <template #title2="{ value, isActive }">npm</template>

@@ -4,10 +4,6 @@
 VuePress v2 is currently in RC (Release Candidate) stage. It's ready to be used for building your site, but the config and API are not stable enough, which is possibly to have minor breaking changes. So make sure to read the [changelog](https://github.com/vuepress/core/blob/main/CHANGELOG.md) carefully each time you upgrade a RC version.
 :::
 
-## Try It Online
-
-You can try VuePress directly in your browser on [StackBlitz](https://stackblitz.com/fork/vuepress).
-
 ## Installation
 
 ### Prerequisites

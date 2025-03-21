@@ -5,26 +5,22 @@ export default defineClientConfig({
     // ...
   },
   setup() {
-    const updateFavicon = () => {
+    const updateNavbarLogo = () => {
       const isDarkMode = document.documentElement.classList.contains('dark')
-      const faviconUrl = isDarkMode ? '/favicon-dark.svg' : '/favicon-light.svg'
+      const logoUrl = isDarkMode ? '/logo-light.svg' : '/logo-dark.svg'
       
-      console.log('Dark Mode:', isDarkMode, '| Favicon:', faviconUrl)
+      console.log('Dark Mode:', isDarkMode, '| Logo:', logoUrl)
 
-      let favicon = document.querySelector("link[rel='icon']")
-      if (!favicon) {
-        favicon = document.createElement('link')
-        favicon.setAttribute('rel', 'icon')
-        document.head.appendChild(favicon)
+      const logoImg = document.querySelector('vp-site-logo')
+      if (logoImg) {
+        logoImg.setAttribute('src', logoUrl)
       }
-      favicon.setAttribute('href', faviconUrl)
     }
 
-    updateFavicon() // Jalankan saat pertama kali halaman dimuat
+    updateNavbarLogo()
 
     const observer = new MutationObserver(() => {
-      console.log('Dark mode class changed!')
-      updateFavicon()
+      updateNavbarLogo()
     })
 
     observer.observe(document.documentElement, {
