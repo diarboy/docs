@@ -30,6 +30,15 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+.vp-site-name {
+  background: linear-gradient(45deg, #42d392, #647eff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+
+
 .vp-hero .actions a {
   display: inline-block;
   padding: 12px 24px;

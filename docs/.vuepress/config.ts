@@ -4,7 +4,7 @@ import { defineUserConfig } from 'vuepress';
 
 export default defineUserConfig({
   base: '/',
-  title: 'Whatever DOCS',
+  title: 'WastedYouth',
   description: 'Whatever ITS A DOCS',
   head: [
     ['link', { rel: 'icon', href: '/favicon.svg', id: 'dynamic-favicon' }],
